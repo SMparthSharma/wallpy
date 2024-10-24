@@ -9,8 +9,8 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Text('hello'),
+    return Scaffold(
+      body: Container(child: Text('data'),),
     );
   }
 }
