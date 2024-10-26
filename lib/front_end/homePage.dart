@@ -11,7 +11,11 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('data'),),
-      body: Container(child: Text('data'),),
+      body: Column(
+        children: [
+          Container(child: Text('data'),),
+        ],
+      ),
     );
   }
 }
