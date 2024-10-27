@@ -13,7 +13,14 @@ class _HomeState extends State<Home> {
       appBar: AppBar(title: Text('data'),),
       body: Column(
         children: [
-          Container(child: Text('data'),),
+          Container(child: Text('data'),
+          ),
+          Container(child: Text('data'),
+          ),
+          Container(child: Text('data'),
+          ),
+          Container(child: Text('data'),
+          ),
         ],
       ),
     );
