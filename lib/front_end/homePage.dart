@@ -9,19 +9,21 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: Text('data'),),
-      body: Column(
-        children: [
-          Container(child: Text('data'),
-          ),
-          Container(child: Text('data'),
-          ),
-          Container(child: Text('data'),
-          ),
-          Container(child: Text('data'),
-          ),
-        ],
+    return SingleChildScrollView(
+      child: Scaffold(
+        appBar: AppBar(title: Text('data'),),
+        body: Column(
+          children: [
+            Container(child: Text('data'),
+            ),
+            Container(child: Text('data'),
+            ),
+            Container(child: Text('data'),
+            ),
+            Container(child: Text('data'),
+            ),
+          ],
+        ),
       ),
     );
   }
